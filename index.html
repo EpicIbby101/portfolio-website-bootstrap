@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>My Portfolio</title>
   </head>
+  
   <body>
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary customNav">
@@ -35,16 +36,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#Home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about-heading">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="#projects-heading">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Me</a>
+              <a class="nav-link" href="#contact-heading">Contact Me</a>
             </li>
           </ul>
         </div>
@@ -53,7 +54,7 @@
     <!--End of Navbar-->
     <!--Jumbotron-->
     <section>
-      <div class="p-5 mb-4 bg-body-tertiary rounded-3 jumboBackground">
+      <div class="p-5 mb-4 bg-body-tertiary rounded-3 jumboBackground" id="Home">
         <div class="container-fluid py-5 jumboCopy">
           <h1 class="display-5 fw-bold">Kevin Grittner</h1>
           <div class="text-center">
@@ -240,7 +241,7 @@
       </section>
       <!--End of About Section-->
       <!--Projects Section-->
-      <div class="container-fluid content">
+      <div class="container-fluid content" id="projects-heading">
         <h2 class="sectionHeading mb-3">My Recent Projects</h2>
         <div class="row projects">
           <!-- Card 1 -->
@@ -252,7 +253,7 @@
                 <p class="card-text">
                     This app is designed to calculate the best time for two people from different timezones to call or talk to each other without disrupting their circadian rhythm and sleep patterns.
                 </p>
-                <a href="#" class="btn btn-primary">Check out the app</a>
+                <a href="https://timezoneapp-sepia.vercel.app/" target="_blank" class="btn btn-primary">Check out the app</a>
               </div>
             </div>
           </div>
@@ -267,7 +268,7 @@
                 <p class="card-text">
                     This app allows you to search and explore fitness exercises and learn them via a detailed animated diagram.
                 </p>
-                <a href="#" class="btn btn-primary">Check out the app</a>
+                <a href="https://yeahbuddeh-2b8a1.web.app/" target="_blank" class="btn btn-primary">Check out the app</a>
               </div>
             </div>
           </div>
@@ -282,7 +283,7 @@
                 <p class="card-text">
                     A full-stack Pinterest-type app created using React, Tailwind and Sanity
                 </p>
-                <a href="#" class="btn btn-primary">Check out the app</a>
+                <a href="https://sharebee-374512.web.app/login" target="_blank" class="btn btn-primary">Check out the app</a>
               </div>
             </div>
           </div>
@@ -291,7 +292,7 @@
       </div>
       <!--End of Projects Section-->
       <!--Contact us-->
-      <div class="container mt-5">
+      <div class="container mt-5" id="contact-heading">
         <h2 class="text-center">Contact Us</h2>
         <div class="d-flex justify-content-center">
           <form class="w-50">

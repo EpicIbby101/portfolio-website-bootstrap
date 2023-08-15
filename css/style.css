@@ -52,6 +52,11 @@ p {
   margin: 0px 15px;
 }
 
+.navbar-toggler {
+  color: white;
+  background-color: white;
+}
+
 .jumboCopy {
   width: 70%;
   min-width: 500px;
